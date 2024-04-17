@@ -15,7 +15,7 @@ The Custom Module with All Related Work will be found under addons/openeducate_s
 
 Getting Started with the Feature
 -------------------------
-
+After installing all openeducate addons including my custom addon "openeducate_sync_log"
 in the root menus, you'll find a sync Log menu [ONLY AVAILABLE FOR BACK OFFICE ADMIN GROUP ]
 once clicked, you'll see all the sync logs that happened on Parent and Student As Requested.
 
