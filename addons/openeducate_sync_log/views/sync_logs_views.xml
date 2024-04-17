@@ -1,0 +1,27 @@
+<odoo>
+    <record id="sync_logs_view_tree" model="ir.ui.view">
+        <field name="name">Sync Logs</field>
+        <field name="model">sync.logs</field>
+        <field name="arch" type="xml">
+            <tree string="Sync Logs" create="0" edit="0" delete="0">
+                <field name="model_id"/>
+                <field name="action"/>
+                <field name="action_type"/>
+                <field name="user_id"/>
+                <field name="time"/>
+            </tree>
+        </field>
+    </record>
+    <record id="sync_logs_view_action" model="ir.actions.act_window">
+        <field name="name">Sync Logs</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sync.logs</field>
+        <field name="view_mode">tree,pivot</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                No Activities Yet
+            </p>
+        </field>
+    </record>
+    <menuitem id="sync_logs_menu_action" name="Sync Logs" action="sync_logs_view_action" sequence="4"/>
+</odoo>
