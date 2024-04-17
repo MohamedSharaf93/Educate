@@ -23,5 +23,7 @@
             </p>
         </field>
     </record>
-    <menuitem id="sync_logs_menu_action" name="Sync Logs" action="sync_logs_view_action" sequence="4"/>
+    <menuitem id="sync_logs_menu_action" name="Sync Logs" action="sync_logs_view_action"
+              groups="openeducat_core.group_op_back_office_admin"
+              sequence="4"/>
 </odoo>
